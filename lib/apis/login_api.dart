@@ -5,7 +5,7 @@ import '../models.dart';
 @immutable
 abstract class LoginApiProtocol{
   const LoginApiProtocol();
-  Future<LoginHandle?>  login({
+  Future<LoginHandle?> login({
     required String email,required String password,
 });
 }

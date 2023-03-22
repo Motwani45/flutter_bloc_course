@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../models.dart';
+
 extension ToListView<T> on Iterable<T>{
   Widget toListView(){
     return IterableListView(iterable: this,);
@@ -15,7 +17,7 @@ class IterableListView<T> extends StatelessWidget {
       itemBuilder: (context,index){
         return ListTile(
           title: Text(
-            iterable.elementAt(index).toString()
+              (iterable.elementAt(index) as Note).title
           ),
 
         );
