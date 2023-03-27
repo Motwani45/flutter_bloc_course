@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "391217381955",
+    "project_id": "flutterblocexample-14a80",
+    "storage_bucket": "flutterblocexample-14a80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391217381955:android:6083f7a8e565febdc3caf6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_bloc_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391217381955-phj7jg7t4k9uc2usqfku5iaaisk276r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeY2XQuObtCgB5vGIHxIRDxD-3ZWfIj5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391217381955-phj7jg7t4k9uc2usqfku5iaaisk276r8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "391217381955-l00lolpvhdubq282ge72nh4ja2n97fsb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterBlocCourse"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
